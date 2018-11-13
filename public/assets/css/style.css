@@ -131,10 +131,51 @@ a {
 
 .bold{font-weight:bold;
 margin-top: 10px;}
+.indent{
+    margin-left: 15px;
+}
 
+#headshot{
+    height: 200px;
+    width: 215px
+}
 
+.headshot-name{
+   text-align:center;
+    margin-left: 35%;
+    font-size: 13px;
+}
 
+.people-heading{
+    margin-top: 8%;
+    
+}
 
+.people-body{
+    margin-left: 20%
+}
+
+.people-type{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.research-body{
+margin-top: 10%;
+margin-left:10%;
+margin-right:10%;
+line-height: 1.5;
+}
+.indent{
+    text-indent: 50px;
+    margin-top:2%;
+    font-size:16px;
+}
+
+.resources-body{
+    margin-top: 15%;
+    margin-left:40%
+}
 
 
 
