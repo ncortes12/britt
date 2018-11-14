@@ -27,16 +27,23 @@ a {
 
 #welcome{
     margin-left: 30%;
-    margin-top: 50%;
+    /* margin-top: 50%; */
    
     }
 #intro {
     line-height: 1.5;
-    margin-top: 12px;
+    /* margin-top: 15%; */
     text-align: center;
     font-family: 'Raleway', sans-serif;
     
     
+}
+.main-body{
+    margin-top:20%
+}
+
+.index-text{
+    margin-top:5%
 }
 .diff-font{
     font-family: 'Raleway', sans-serif;
@@ -54,7 +61,7 @@ a {
 
 
 #learn{
-    margin-left:35%
+    margin-left:40%
    
 }
 .collapsed{
@@ -98,7 +105,16 @@ a {
 .footer{
     background-image: url(../images/green_cup.png);
     
-    padding: 50px;
+    padding: 25px;
+}
+
+.contact-footer{
+    margin-left:8%
+}
+
+.researchgate{
+    margin-top: 2%;
+    margin-left: 10%
 }
 
 #burger{
@@ -135,10 +151,21 @@ margin-top: 10px;}
     margin-left: 15px;
 }
 
+
 #headshot{
     height: 200px;
     width: 215px
 }
+
+#britt{
+    height:300px;
+    width:250px;
+    
+}
+.special{
+    margin-top:4%
+}
+
 
 .headshot-name{
    text-align:center;
