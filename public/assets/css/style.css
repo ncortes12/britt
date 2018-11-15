@@ -143,6 +143,7 @@ a {
 
 .cv{
     margin-top: 10%;
+    
 }
 
 .bold{font-weight:bold;
@@ -209,25 +210,69 @@ line-height: 1.5;
 
 @media only screen and (max-width: 680px){
 
-#name{margin-left:25%;}
+#name{margin-left:12%;
+font-size: 28px;}
+.nav-link{
+ font-size:14px;
+}
 #link{font-size:12px;}
 #mobile{font-size:12px;}
-.nav{margin-left:12%}
+.nav{margin-left:2%}
 #welcome{display:none}
-#intro{margin-top:25%;
+#intro{margin-top:10%;
 font-size:14px;
 padding:15px;}
+#britt{
+    margin-left:20%
+}
 #learn{
-margin-left:30%;}
+margin-left:35%;}
 #aboutme{
  text-decoration: none;
- margin-left:15%
+ margin-left:30%
 }
 #about-text{
     font-size:14px;
     padding:15px
 }
-#work{margin-left:25%}
+.contact-footer{
+    margin-left:35%
+}
+.researchgate{
+    margin-left:35%
+}
+.research-title{
+    margin-left: left 15%;
+    text-align: center;
+    margin-bottom: 5%
+}
+.indent{
+    text-align: center;
+    margin-right:5%;
+    text-indent: 25px;
+}
+.people-body{
+    margin-left:8%
+}
+.people-heading{
+    text-align: center;
+    margin-right:8%
+}
+.people-type{
+    text-align: center;
+    margin-right:8%
+
+}
+#headshot{
+    margin-left:15%
+}
+.headshot-name{
+    text-align: center;
+    margin-left:0%;
+    margin-right:12%
+};
+
+#work{margin-left:30%}
 .resume{margin-top:20%}
 .mb-2{
     font-size:14px;}
@@ -235,6 +280,9 @@ margin-left:30%;}
 .container{margin-left:-25px;}
 .project{
     margin-left: 5px;
+}
+.cv{
+    margin-left:15%
 }
     
     
