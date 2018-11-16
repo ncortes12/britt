@@ -13,9 +13,9 @@ margin-left:45px;
 font-weight: bold;
 text-decoration: none}
 
-.nav{margin-top:45px;
-    font-size:17px;
-    padding-left:0px;
+.navbar{
+    padding-top:2%
+  
     }
 #link
 {margin-left: 10px;
@@ -39,7 +39,7 @@ a {
     
 }
 .main-body{
-    margin-top:20%
+  
 }
 
 .index-text{
@@ -225,7 +225,7 @@ line-height: 1.5;
 }
 .indent{
     text-indent: 50px;
-    margin-top:15%;
+    margin-top:10%;
     font-size:16px;
 }
 
@@ -238,6 +238,10 @@ line-height: 1.5;
 
 #research-footer{
     margin-bottom:-20%
+}
+
+.bib{
+    text-indent: -20px
 }
 
 
@@ -253,6 +257,7 @@ font-size: 28px;}
 #mobile{font-size:12px;}
 .nav{margin-left:2%}
 #welcome{display:none}
+#finn{display:none}
 #intro{margin-top:10%;
 font-size:14px;
 padding:15px;}
@@ -303,7 +308,9 @@ margin-left:30%;}
     margin-right:5%
 }
 #list{
-    margin-right:10%
+    margin-right:10%;
+    margin-top:5%;
+    
 }
 #britt{
     margin-left:0%
@@ -336,7 +343,8 @@ margin-left:30%;}
     margin-left: 5px;
 }
 .cv{
-    margin-left:15%
+    margin-left:15%;
+    margin-top:30%
 }
     
     
