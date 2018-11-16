@@ -27,14 +27,47 @@
 
 <body>
     <div class="main">
-        <div class="row header">
+            <nav class="navbar navbar-expand-lg navbar-light transparent">
+                    <a class="navbar-brand" href="#">Britt Singletary, MA, ABD</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto justify-content-end">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                       
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Research
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                              </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                      </ul>
+                    
+                    </div>
+                  </nav>
+        <!-- <div class="row header"> -->
 
 
-            <div class="col-sm-8">
+            <!-- <div class="col-sm-8">
                 <h1 id="name">Britt Singletary, MA, ABD</h1>
             </div>
 
-            <ul class="nav justify-content-end">
+            <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link active" href="/">Home</a>
                 </li>
@@ -58,10 +91,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>
-            </ul>
+            </ul> -->
 
 
-        </div>
+        <!-- </div> -->
         <div class = "people-body">
     <div><h1 class = "people-heading">Assistants for Human-based Research</h1></div>
     <h3 class = "people-type">Data Input and Analysis</h3>
@@ -159,9 +192,9 @@
             </div></div>
             <div class = "col-sm-3"></div>
         </div>
-        <div><h1 class = "people-heading">Assistants for Non-human based Research</h1></div>
+        <div><h1 class = "people-heading" id="nonhuman">Assistants for Non-human based Research</h1></div>
        <div class = "row">
-            <ul style="list-style-type:none">
+            <ul style="list-style-type:none" id="list">
                 <li>Nicole Cortes (Collection, Data Entry, Analysis and Presentation of Results)</li>
                 <li>Max Silva (Data Entry and Analysis)</li>
                 <li>Juliana Costanza(Preparation for Presentation)</li>
@@ -178,7 +211,7 @@
         </div>
         
     </div>
-    <div class="footer">
+    <!-- <div class="footer"> -->
             <!-- <div class = "row">
                 <div class = col-sm-2"></div>
                 <div class = "col-sm-4">
@@ -193,7 +226,7 @@
                 <div class = "col-sm-2 researchgate">
                        <a href="https://www.researchgate.net/profile/Britt_Singletary"> <i class="fab fa-researchgate fa-5x"></i></a>
                 </div> -->
-            </div>
+            <!-- </div> -->
 
 
 <script> $(".contact").on("click", function (event) {

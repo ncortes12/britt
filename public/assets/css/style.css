@@ -207,7 +207,8 @@ margin-top: 10px;}
 }
 
 .people-body{
-    margin-left: 20%
+    margin-left: 20%;
+    padding-top:5%
 }
 
 .people-type{
@@ -217,7 +218,7 @@ margin-top: 10px;}
 
 .research-body{
 margin-top: 10%;
-margin-bottom:20%;
+/* margin-bottom:20%; */
 margin-left:10%;
 margin-right:10%;
 line-height: 1.5;
@@ -294,7 +295,15 @@ margin-left:30%;}
     text-indent: 25px;
 }
 .people-body{
-    margin-left:2%
+    margin-left:2%;
+    padding-top:20%
+    
+}
+#nonhuman{
+    margin-right:5%
+}
+#list{
+    margin-right:10%
 }
 #britt{
     margin-left:0%
