@@ -104,9 +104,9 @@ a {
 }
 
 .footer{
-    background-image: url(../images/green_cup.png);
+    background-image: url(../images/footer.PNG);
     
-    padding: 25px;
+    padding: 50px;
 }
 
 .contact-footer{
@@ -224,7 +224,7 @@ line-height: 1.5;
 }
 .indent{
     text-indent: 50px;
-    margin-top:2%;
+    margin-top:15%;
     font-size:16px;
 }
 
@@ -290,6 +290,7 @@ margin-left:30%;}
 .indent{
     text-align: center;
     margin-right:5%;
+   
     text-indent: 25px;
 }
 .people-body{
